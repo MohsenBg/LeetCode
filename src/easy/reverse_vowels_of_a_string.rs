@@ -33,3 +33,19 @@ fn is_char_vowels(c: char) -> bool {
     }
     return false;
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn solution_1_test_1() {
+        let res = Solution::reverse_vowels("hello".to_string());
+        assert_eq!("holle", res.as_str());
+    }
+
+    #[test]
+    fn solution_1_test_2() {
+        let res = Solution::reverse_vowels("leetcode".to_string());
+        assert_eq!("leotcede", res.as_str());
+    }
+}
