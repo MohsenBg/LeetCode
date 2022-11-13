@@ -33,7 +33,7 @@ impl Solution {
 }
 
 #[cfg(test)]
-mod tests {
+mod two_sum {
     use super::Solution;
     #[test]
     fn solution_1_test_1() {
@@ -54,28 +54,6 @@ mod tests {
         let nums = vec![3, 3];
         let target = 6;
         let res = Solution::solution_1(nums, target);
-        assert_eq!(res, vec![0, 1]);
-    }
-
-    #[test]
-    fn solution_2_test_1() {
-        let nums = vec![2, 7, 11, 15];
-        let target = 9;
-        let res = Solution::solution_2(nums, target);
-        assert_eq!(res, vec![0, 1]);
-    }
-    #[test]
-    fn solution_2_test_2() {
-        let nums = vec![3, 2, 4];
-        let target = 6;
-        let res = Solution::solution_2(nums, target);
-        assert_eq!(res, vec![1, 2]);
-    }
-    #[test]
-    fn solution_2_test_3() {
-        let nums = vec![3, 3];
-        let target = 6;
-        let res = Solution::solution_2(nums, target);
         assert_eq!(res, vec![0, 1]);
     }
 }
