@@ -6,4 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# I used once_cell to make lazy initialize a static global variable to provide conditions for testing, it doesn't use in the leet code answer I wrote
 once_cell = "0.2.2"
