@@ -51,6 +51,8 @@ impl Solution {
     }
 }
 
+// these tests should run with single thread beacuse sometimes two thread want acsses to the static target
+// and cause issus when chenged target value at the same time (the chance is small but it's good to prevent it)
 #[cfg(test)]
 mod tests {
     use super::*;
