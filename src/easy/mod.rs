@@ -1,3 +1,4 @@
+mod find_pivot_index;
 mod guess_number_higher_or_lower;
 mod longest_common_prefix;
 mod make_the_string_great;
