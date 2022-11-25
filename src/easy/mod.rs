@@ -5,6 +5,7 @@ mod isomorphic_string;
 mod longest_common_prefix;
 mod make_the_string_great;
 mod maximum_69_number;
+mod merge_two_sorted_lists;
 mod palindrome_number;
 mod remove_all_adjacent_duplicates_in_string;
 mod remove_duplicates_from_sorted_array;
