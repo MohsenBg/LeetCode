@@ -7,12 +7,15 @@ pub struct ListNode {
 
 impl ListNode {
     #[inline]
+    #[allow(dead_code)]
     fn new(val: i32) -> Self {
         ListNode { next: None, val }
     }
 }
+#[allow(dead_code)]
 pub struct Solution {}
 impl Solution {
+    #[allow(dead_code)]
     pub fn reverse_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         // more information
         // https://www.youtube.com/watch?v=4IJKoqUVgFI
@@ -28,7 +31,7 @@ impl Solution {
         prev
     }
 }
-
+#[allow(dead_code)]
 pub fn vec_to_list(vector: Vec<i32>) -> Option<Box<ListNode>> {
     if vector.len() == 0 {
         return None;
@@ -44,7 +47,7 @@ pub fn vec_to_list(vector: Vec<i32>) -> Option<Box<ListNode>> {
     }
     list
 }
-
+#[allow(dead_code)]
 pub fn list_to_vec(list: Option<Box<ListNode>>) -> Vec<i32> {
     let mut vector: Vec<i32> = Vec::new();
     let mut list = list;

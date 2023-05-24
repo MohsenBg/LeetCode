@@ -1,8 +1,9 @@
 use std::collections::HashMap;
-
+#[allow(dead_code)]
 pub struct Solution {}
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn roman_to_int(s: String) -> i32 {
         let table: HashMap<char, i32> = HashMap::from([
             ('I', 1),

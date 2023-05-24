@@ -1,6 +1,8 @@
+#[allow(dead_code)]
 pub struct Solution {}
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn reverse_words(s: String) -> String {
         // convert string to vector split with space
         let s: Vec<&str> = s.split(" ").collect();

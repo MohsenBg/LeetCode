@@ -1,6 +1,8 @@
+#[allow(dead_code)]
 pub struct Solution {}
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn compute_area(
         ax1: i32,
         ay1: i32,

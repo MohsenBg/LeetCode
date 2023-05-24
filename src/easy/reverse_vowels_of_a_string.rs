@@ -1,6 +1,7 @@
 #[derive(Debug)]
 pub struct Solution {}
 impl Solution {
+    #[allow(dead_code)]
     pub fn reverse_vowels(s: String) -> String {
         let mut str_vec: Vec<char> = s.chars().into_iter().collect();
         let mut vewels_chars = Vec::new();

@@ -1,6 +1,8 @@
+#[allow(dead_code)]
 pub struct Solution {}
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn is_ugly(n: i32) -> bool {
         // prime factors are limited to 2, 3, and 5
         let base_prim: [i32; 3] = [2, 3, 5];

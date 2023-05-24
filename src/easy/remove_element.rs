@@ -1,6 +1,8 @@
+#[allow(dead_code)]
 pub struct Solution {}
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn remove_element(nums: &mut Vec<i32>, val: i32) -> i32 {
         if nums.len() == 0 {
             return 0;

@@ -1,7 +1,10 @@
+#[allow(dead_code)]
 pub struct Solution {}
 
 use std::collections::{HashMap, HashSet};
+
 impl Solution {
+    #[allow(dead_code)]
     pub fn is_isomorphic(s: String, t: String) -> bool {
         let t: Vec<char> = t.chars().collect();
         // map a -> b

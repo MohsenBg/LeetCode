@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 struct MedianFinder {
     val: Vec<i32>,
 }
@@ -7,14 +8,17 @@ struct MedianFinder {
  * If you need a mutable reference, change it to `&mut self` instead.
  */
 impl MedianFinder {
+    #[allow(dead_code)]
     fn new() -> Self {
         MedianFinder { val: Vec::new() }
     }
 
+    #[allow(dead_code)]
     fn add_num(&mut self, num: i32) {
         self.val.push(num);
     }
 
+    #[allow(dead_code)]
     fn find_median(&mut self) -> f64 {
         if self.val.len() == 0 {
             return 0.0;
@@ -43,13 +47,13 @@ mod tests {
     use super::MedianFinder;
 
     #[test]
-    fn Solution_1_test_1() {
-        let mut medianFinder: MedianFinder = MedianFinder::new();
-        medianFinder.add_num(1); // arr = [1]
-        medianFinder.add_num(2); // arr = [1, 2]
-        medianFinder.find_median(); // return 1.5 (i.e., (1 + 2) / 2)
-        medianFinder.add_num(3); // arr[1, 2, 3]
-        let mid = medianFinder.find_median(); // return 2.0
+    fn solution_1_test_1() {
+        let mut median_finder: MedianFinder = MedianFinder::new();
+        median_finder.add_num(1); // arr = [1]
+        median_finder.add_num(2); // arr = [1, 2]
+        median_finder.find_median(); // return 1.5 (i.e., (1 + 2) / 2)
+        median_finder.add_num(3); // arr[1, 2, 3]
+        let mid = median_finder.find_median(); // return 2.0
         assert_eq!(mid, 2.0);
     }
 }

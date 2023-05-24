@@ -1,5 +1,7 @@
+#[allow(dead_code)]
 pub struct Solution {}
 impl Solution {
+    #[allow(dead_code)]
     pub fn maximum69_number(num: i32) -> i32 {
         // convert num to vector of charecters
         let mut num: Vec<char> = num.to_string().chars().collect();
@@ -22,21 +24,21 @@ impl Solution {
 mod tests {
     use super::Solution;
     #[test]
-    fn Solution_1_test_1() {
+    fn solution_1_test_1() {
         let input = 9669;
         let expected = 9969;
         assert_eq!(Solution::maximum69_number(input), expected);
     }
 
     #[test]
-    fn Solution_1_test_2() {
+    fn solution_1_test_2() {
         let input = 9996;
         let expected = 9999;
         assert_eq!(Solution::maximum69_number(input), expected);
     }
 
     #[test]
-    fn Solution_1_test_3() {
+    fn solution_1_test_3() {
         let input = 9999;
         let expected = 9999;
         assert_eq!(Solution::maximum69_number(input), expected);

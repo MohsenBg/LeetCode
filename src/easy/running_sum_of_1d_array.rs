@@ -1,7 +1,9 @@
+#[allow(dead_code)]
 pub struct Solution {}
 impl Solution {
     // check this link for more information
     // https://www.youtube.com/watch?v=7pJo_rM0z_s
+    #[allow(dead_code)]
     pub fn running_sum(nums: Vec<i32>) -> Vec<i32> {
         // make array to store sums
         let mut prefix_sum: Vec<i32> = Vec::new();

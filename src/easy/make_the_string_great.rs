@@ -1,5 +1,7 @@
+#[allow(dead_code)]
 pub struct Solution {}
 impl Solution {
+    #[allow(dead_code)]
     pub fn make_good(s: String) -> String {
         let mut s: Vec<char> = s.chars().collect();
         loop {
@@ -40,28 +42,28 @@ mod tests {
     use super::Solution;
 
     #[test]
-    fn Solution_1_test_1() {
+    fn solution_1_test_1() {
         let input = "leEeetcode".to_string();
         let expected = "leetcode".to_string();
         assert_eq!(Solution::make_good(input), expected);
     }
 
     #[test]
-    fn Solution_1_test_2() {
+    fn solution_1_test_2() {
         let input = "abBAcC".to_string();
         let expected = "".to_string();
         assert_eq!(Solution::make_good(input), expected);
     }
 
     #[test]
-    fn Solution_1_test_3() {
+    fn solution_1_test_3() {
         let input = "s".to_string();
         let expected = "s".to_string();
         assert_eq!(Solution::make_good(input), expected);
     }
 
     #[test]
-    fn Solution_1_test_4() {
+    fn solution_1_test_4() {
         let input = "Pp".to_string();
         let expected = "".to_string();
         assert_eq!(Solution::make_good(input), expected);

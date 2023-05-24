@@ -1,6 +1,7 @@
 #[derive(Debug)]
 pub struct Solution {}
 impl Solution {
+    #[allow(dead_code)]
     pub fn solution_1(nums: Vec<i32>, target: i32) -> Vec<i32> {
         let mut i = 0;
         while i < nums.len() {
@@ -15,7 +16,7 @@ impl Solution {
         }
         return vec![];
     }
-
+    #[allow(dead_code)]
     pub fn solution_2(nums: Vec<i32>, target: i32) -> Vec<i32> {
         let mut n: i32 = nums.len() as i32 - 1;
         let mut nums = nums;

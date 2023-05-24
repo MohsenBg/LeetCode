@@ -1,7 +1,9 @@
+#[allow(dead_code)]
 pub struct Solution {}
 impl Solution {
     // for more information check link below
     // https://www.youtube.com/watch?v=0PiH6Beqif8
+    #[allow(dead_code)]
     pub fn pivot_index(nums: Vec<i32>) -> i32 {
         let mut left_sum = 0;
         let mut total_sum: i32 = 0;

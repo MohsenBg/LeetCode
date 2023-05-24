@@ -1,5 +1,7 @@
+#[allow(dead_code)]
 pub struct Solution {}
 impl Solution {
+    #[allow(dead_code)]
     pub fn is_palindrome(x: i32) -> bool {
         //convert x to string
         let x = x.to_string();

@@ -1,5 +1,7 @@
+#[allow(dead_code)]
 pub struct Solution {}
 impl Solution {
+    #[allow(dead_code)]
     pub fn is_subsequence(s: String, t: String) -> bool {
         // if len <= 0 than no need to check for subsequences
         // every string subsequence of zero
