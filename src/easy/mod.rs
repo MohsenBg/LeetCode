@@ -12,6 +12,7 @@ mod remove_duplicates_from_sorted_array;
 mod remove_element;
 mod reverse_linked_list;
 mod reverse_vowels_of_a_string;
+mod richest_customer_wealth;
 mod roman_to_integer;
 mod running_sum_of_1d_array;
 mod two_sum;
