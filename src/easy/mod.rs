@@ -1,11 +1,13 @@
 mod add_two_integers;
 mod find_pivot_index;
+mod fizz_buzz;
 mod guess_number_higher_or_lower;
 mod is_subsequence;
 mod isomorphic_string;
 mod longest_common_prefix;
 mod make_the_string_great;
 mod maximum_69_number;
+mod number_of_steps_to_reduce_a_number_to_zero;
 mod palindrome_number;
 mod remove_all_adjacent_duplicates_in_string;
 mod remove_duplicates_from_sorted_array;
