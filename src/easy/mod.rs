@@ -10,6 +10,7 @@ mod maximum_69_number;
 mod middle_of_the_linked_list;
 mod number_of_steps_to_reduce_a_number_to_zero;
 mod palindrome_number;
+mod ransom_note;
 mod remove_all_adjacent_duplicates_in_string;
 mod remove_duplicates_from_sorted_array;
 mod remove_element;
