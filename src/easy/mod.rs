@@ -1,4 +1,5 @@
 mod add_two_integers;
+mod build_array_from_permutation;
 mod find_pivot_index;
 mod fizz_buzz;
 mod guess_number_higher_or_lower;
