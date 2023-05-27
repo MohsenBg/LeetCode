@@ -21,5 +21,6 @@ mod reverse_vowels_of_a_string;
 mod richest_customer_wealth;
 mod roman_to_integer;
 mod running_sum_of_1d_array;
+mod shuffle_the_array;
 mod two_sum;
 mod ugly_number;
