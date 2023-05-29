@@ -11,6 +11,7 @@ mod longest_common_prefix;
 mod make_the_string_great;
 mod maximum_69_number;
 mod middle_of_the_linked_list;
+mod number_of_good_pairs;
 mod number_of_steps_to_reduce_a_number_to_zero;
 mod palindrome_number;
 mod ransom_note;
